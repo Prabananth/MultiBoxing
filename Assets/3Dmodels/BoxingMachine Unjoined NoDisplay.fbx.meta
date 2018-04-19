@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 8f36596642296b640ac86acd7618b989
+timeCreated: 1520063984
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Camera
+    100004: Lamp
+    100006: nxsys_base
+    100008: nxsys_base_1
+    100010: nxsys_pad_2
+    100012: nxsys_pad_2.001
+    100014: nxsys_pad_2_1
+    100016: nxsys_pad_2_1.001
+    100018: nxsys_pad_3
+    100020: nxsys_pad_3_1
+    100022: nxsys_pad_4
+    100024: nxsys_pad_4_1
+    100026: nxsys_pad_5
+    100028: nxsys_pad_5_1
+    100030: nxsys_pad_6
+    100032: nxsys_pad_6_1
+    100034: nxsys_pad_7
+    100036: nxsys_pad_7_1
+    100038: nxys_base_limbs
+    100040: nxys_base_limbs_1
+    100042: nxys_base_limbs_2
+    100044: nxys_base_limbs_1.001
+    100046: nxys_base_limbs_1.002
+    100048: nxys_base_limbs_1.003
+    100050: nxys_base_limbs_1.004
+    100052: nxys_base_limbs_1.005
+    100054: nxys_base_limbs_1.006
+    100056: nxys_base_limbs_1.007
+    400000: //RootNode
+    400002: Camera
+    400004: Lamp
+    400006: nxsys_base
+    400008: nxsys_base_1
+    400010: nxsys_pad_2
+    400012: nxsys_pad_2.001
+    400014: nxsys_pad_2_1
+    400016: nxsys_pad_2_1.001
+    400018: nxsys_pad_3
+    400020: nxsys_pad_3_1
+    400022: nxsys_pad_4
+    400024: nxsys_pad_4_1
+    400026: nxsys_pad_5
+    400028: nxsys_pad_5_1
+    400030: nxsys_pad_6
+    400032: nxsys_pad_6_1
+    400034: nxsys_pad_7
+    400036: nxsys_pad_7_1
+    400038: nxys_base_limbs
+    400040: nxys_base_limbs_1
+    400042: nxys_base_limbs_2
+    400044: nxys_base_limbs_1.001
+    400046: nxys_base_limbs_1.002
+    400048: nxys_base_limbs_1.003
+    400050: nxys_base_limbs_1.004
+    400052: nxys_base_limbs_1.005
+    400054: nxys_base_limbs_1.006
+    400056: nxys_base_limbs_1.007
+    2000000: Camera
+    2100000: nxsys_pad_2_1
+    2100002: nxsys_pad_2
+    2100004: nxsys_pad_7
+    2100006: nxsys_pad_7_1
+    2100008: nxsys_pad_6_1
+    2100010: nxsys_pad_6
+    2100012: nxsys_pad_5
+    2100014: nxsys_pad_5_1
+    2100016: nxsys_pad_4
+    2100018: nxsys_pad_4_1
+    2100020: nxsys_pad_3_1
+    2100022: nxsys_pad_3
+    2100024: nxys_base_limbs_1
+    2100026: nxys_base_limbs
+    2100028: nxys_base_limbs_2
+    2100030: nxsys_base_1
+    2100032: nxsys_base
+    2300000: nxsys_base
+    2300002: nxsys_base_1
+    2300004: nxsys_pad_2
+    2300006: nxsys_pad_2.001
+    2300008: nxsys_pad_2_1
+    2300010: nxsys_pad_2_1.001
+    2300012: nxsys_pad_3
+    2300014: nxsys_pad_3_1
+    2300016: nxsys_pad_4
+    2300018: nxsys_pad_4_1
+    2300020: nxsys_pad_5
+    2300022: nxsys_pad_5_1
+    2300024: nxsys_pad_6
+    2300026: nxsys_pad_6_1
+    2300028: nxsys_pad_7
+    2300030: nxsys_pad_7_1
+    2300032: nxys_base_limbs
+    2300034: nxys_base_limbs_1
+    2300036: nxys_base_limbs_2
+    2300038: nxys_base_limbs_1.001
+    2300040: nxys_base_limbs_1.002
+    2300042: nxys_base_limbs_1.003
+    2300044: nxys_base_limbs_1.004
+    2300046: nxys_base_limbs_1.005
+    2300048: nxys_base_limbs_1.006
+    2300050: nxys_base_limbs_1.007
+    3300000: nxsys_base
+    3300002: nxsys_base_1
+    3300004: nxsys_pad_2
+    3300006: nxsys_pad_2.001
+    3300008: nxsys_pad_2_1
+    3300010: nxsys_pad_2_1.001
+    3300012: nxsys_pad_3
+    3300014: nxsys_pad_3_1
+    3300016: nxsys_pad_4
+    3300018: nxsys_pad_4_1
+    3300020: nxsys_pad_5
+    3300022: nxsys_pad_5_1
+    3300024: nxsys_pad_6
+    3300026: nxsys_pad_6_1
+    3300028: nxsys_pad_7
+    3300030: nxsys_pad_7_1
+    3300032: nxys_base_limbs
+    3300034: nxys_base_limbs_1
+    3300036: nxys_base_limbs_2
+    3300038: nxys_base_limbs_1.001
+    3300040: nxys_base_limbs_1.002
+    3300042: nxys_base_limbs_1.003
+    3300044: nxys_base_limbs_1.004
+    3300046: nxys_base_limbs_1.005
+    3300048: nxys_base_limbs_1.006
+    3300050: nxys_base_limbs_1.007
+    4300000: nxsys_pad_2_1.001
+    4300002: nxsys_pad_2.001
+    4300004: nxsys_pad_7
+    4300006: nxsys_pad_7_1
+    4300008: nxsys_pad_6_1
+    4300010: nxsys_pad_6
+    4300012: nxsys_pad_5
+    4300014: nxsys_pad_5_1
+    4300016: nxsys_pad_4
+    4300018: nxsys_pad_4_1
+    4300020: nxsys_pad_3_1
+    4300022: nxsys_pad_3
+    4300024: nxsys_pad_2
+    4300026: nxsys_pad_2_1
+    4300028: nxys_base_limbs_1
+    4300030: nxys_base_limbs
+    4300032: nxys_base_limbs_2
+    4300034: nxsys_base_1
+    4300036: nxsys_base
+    4300038: nxys_base_limbs_1.007
+    4300040: nxys_base_limbs_1.006
+    4300042: nxys_base_limbs_1.005
+    4300044: nxys_base_limbs_1.004
+    4300046: nxys_base_limbs_1.003
+    4300048: nxys_base_limbs_1.002
+    4300050: nxys_base_limbs_1.001
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

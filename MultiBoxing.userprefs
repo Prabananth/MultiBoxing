@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUIScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GUIScript.cs" Line="21" Column="2" />
+      <File FileName="Assets\Scripts\prefabs\GestureRecognizer\GameData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\prefabs\GestureRecognizer\SaveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RenderTextureCamera.cs" Line="15" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
