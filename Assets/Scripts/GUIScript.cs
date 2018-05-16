@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
-using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 
@@ -18,6 +15,7 @@ public class GUIScript : MonoBehaviour {
     public NetManager NetworkManager;
     public GameObject GUI;
     public MapJoins MJ;
+    public T_Pose TP;
 	public static GUIScript path = new GUIScript ();
 	public string CreateFolder;
 
@@ -46,7 +44,7 @@ public class GUIScript : MonoBehaviour {
         //Debug.Log(uname + " " + pwd);
         string temp;
 		bool flag = false;
-		CreateFolder = "G:\\Unity Projects\\Users\\" + uname;
+		CreateFolder = "C:\\Users\\rajan\\Desktop\\MultiBoxing" + uname;
         while ((temp = fread.ReadLine()) != null && flag == false)
         {
             temp = temp.Substring(0, temp.IndexOf(":"));
@@ -77,7 +75,7 @@ public class GUIScript : MonoBehaviour {
         string match = uname + ":" + pwd;
         string temp;
 		bool flag = false;
-		CreateFolder = "G:\\Unity Projects\\Users\\" + uname;
+		CreateFolder = "C:\\Users\\rajan\\Desktop\\MultiBoxing" + uname;
         while((temp=file.ReadLine())!=null && flag==false)
         {
             if (temp == match)
@@ -113,13 +111,14 @@ public class GUIScript : MonoBehaviour {
 			
 			if (ip.name == "HighKneesField") 
 			{
-				currExercise = "HighKness";
+				currExercise = "HighKnees";
 				Debug.Log (currExercise);
 				MapJoins.selectedExercise.Add(currExercise, 0);
 				MapJoins.ExerciseList.Add(currExercise);
 
 				int rep = System.Convert.ToInt32(ip.text);
 				MapJoins.selectedExercise[currExercise] = rep;
+                Debug.Log(rep);
 
 				foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
 				{
@@ -131,14 +130,15 @@ public class GUIScript : MonoBehaviour {
 			else if(ip.name == "SquatsField")
 			{
 				Debug.Log (ip.name);
-				currExercise = "Squats";
+				currExercise = "Squat";
 				MapJoins.selectedExercise.Add(currExercise, 0);
 				MapJoins.ExerciseList.Add(currExercise);
 
 				int rep = System.Convert.ToInt32(ip.text);
 				MapJoins.selectedExercise[currExercise] = rep;
+                Debug.Log(rep);
 
-				foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
+                foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
 				{
 					// Debug.Log(k.Key+":"+k.Value);
 				}
@@ -153,8 +153,9 @@ public class GUIScript : MonoBehaviour {
 
 				int rep = System.Convert.ToInt32(ip.text);
 				MapJoins.selectedExercise[currExercise] = rep;
+                Debug.Log(rep);
 
-				foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
+                foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
 				{
 					// Debug.Log(k.Key+":"+k.Value);
 				}
@@ -168,28 +169,34 @@ public class GUIScript : MonoBehaviour {
 
 				int rep = System.Convert.ToInt32(ip.text);
 				MapJoins.selectedExercise[currExercise] = rep;
+                Debug.Log(rep);
 
-				foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
+                foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
 				{
 					// Debug.Log(k.Key+":"+k.Value);
 				}
 				currExercise = null;
 			}else if(ip.name == "RightLungesField")
 			{
-				Debug.Log (ip.name);
+				Debug.Log ("RLF : "+ip.name);
 				currExercise = "RightLunges";
 				MapJoins.selectedExercise.Add(currExercise, 0);
 				MapJoins.ExerciseList.Add(currExercise);
 
 				int rep = System.Convert.ToInt32(ip.text);
 				MapJoins.selectedExercise[currExercise] = rep;
+                Debug.Log(rep);
 
-				foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
+                foreach (KeyValuePair<string, int>  k in MapJoins.selectedExercise)
 				{
 					// Debug.Log(k.Key+":"+k.Value);
 				}
 				currExercise = null;
-			}
+            }
+            else
+            {
+                return;
+            }
 		}
 		else
 		{
@@ -265,8 +272,9 @@ public class GUIScript : MonoBehaviour {
             //EditorUtility.DisplayDialog("Error", "Details Updated.", "Okay");
             //NetworkManager.StartS();
             CharacterMotion.CanWork = true;
-            MJ.Initialized = true;
-            MJ.Map();
+            //MJ.Initialized = true;
+            //MJ.Map();
+            TP.TPosition();
             GUI.SetActive(false);
         }
     }

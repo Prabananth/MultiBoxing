@@ -35,7 +35,7 @@ public class MapJoins : NetworkBehaviour {
     {
         {"punches", 0},
         {"highness", 1},
-        {"jumpimgjack", 2},
+        {"jumpingjack", 2},
         {"squat", 3},
         {"leftlunges", 4},
         {"rightlunges", 5}
@@ -179,7 +179,9 @@ public class MapJoins : NetworkBehaviour {
                     CurrentJoint = null;
                     CurrentPunchBag = null;
                     int ExerciseNo = Random.Range(0, ExerciseList.Count);
+                    Debug.Log(ExerciseNo);
                     GestureName = ExerciseList[ExerciseNo];
+                    Debug.Log(GestureName);
                     gestureCount = selectedExercise[GestureName];
                     ExerciseList.Remove(GestureName);
                     selectedExercise.Remove(GestureName);
