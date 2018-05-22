@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InGameUIScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\prefabs\GestureRecognizer\BodySourceManager.cs">
     <Files>
       <File FileName="Assets\Scripts\GUIScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\prefabs\GestureRecognizer\GameData.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\prefabs\GestureRecognizer\SaveScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RenderTextureCamera.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\InGameUIScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\prefabs\GestureRecognizer\BodySourceManager.cs" Line="52" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
